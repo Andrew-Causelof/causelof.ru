@@ -73,7 +73,7 @@
 }
 .skill {
     text-align: center;
-    margin-left: 10px;
+    margin-left: 25px;
 }
 .chart {
     position: relative;
@@ -312,4 +312,50 @@
 
 .items {
     padding: 0;
+}
+
+#navigation {
+    background-color: rgba(0, 0, 0, 1);
+    padding: 10px 10px;
+    z-index: 100;
+    width: 100%;
+}
+
+#navigation li {
+    padding: 10px
+}
+
+#navigation li a {
+    color: #fff;
+}
+
+.navbar-brand,
+.navbar-brand:hover{
+    color: #fff;
+}
+
+.navbar-toggler-icon {
+    background-image: url(../img/icons/menu.png);
+    background-size: 100%;
+}
+
+.fixedNav #navigation {
+ position: fixed;
+ top: 0;
+}
+
+.loader {
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 1000;
+}
+
+.loader .inner {
+    width: 100%;
+    height: 100%;
+    background: url(../img/icons/loader.gif) center center no-repeat;
 }
