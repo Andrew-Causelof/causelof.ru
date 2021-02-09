@@ -247,9 +247,8 @@
             <div class="row">
                 <div class="filter">
                     <ul id="filters">
-                        <li> <a href="#" data-filter="*"><span> Show All</span> </a></li>
+                        <li> <a href="#" data-filter="*">Show All</a></li>
                         <li> <a href="#" data-filter=".webSites" class="current">Websites </a></li>
-                        <li> <a href="#" data-filter=".PHP" >Designs </a></li>
                         <li> <a href="#" data-filter=".webGl" >WebGl-Three.js </a></li>
                         <li> <a href="#" data-filter=".shortJSapps" >short JS apps </a></li>
                     </ul>
